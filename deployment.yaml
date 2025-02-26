@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-text-processor-deployment  # Fixed: No underscores
+  name: my-text-processor-deployment  
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: my-text-processor  # Fixed: No underscores
+      app: my-text-processor  
   template:
     metadata:
       labels:
-        app: my-text-processor  # Fixed: No underscores
+        app: my-text-processor  
     spec:
       containers:
-      - name: my-text-processor  # Fixed: No underscores
+      - name: my-text-processor  
         image: aayushkeshari/my_text_processor
         resources:
           limits:

@@ -1,0 +1,3 @@
+NAME                                           READY   STATUS             RESTARTS   AGE
+my-text-processor-deployment-66cfc58f6-4zf94   0/1     ErrImagePull       0          30s
+my-text-processor-deployment-66cfc58f6-bbz4g   0/1     ImagePullBackOff   0          30s
